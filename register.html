@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet"  href="styles/mystyle.css">
+    <title>FSDI 105 S4</title>
+</head>
+<body>
+    <header class="banner">
+        <h1>User Registration System</h1>
+    </header>
+
+    <nav class="nav">
+        <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+        <a class="nav-link" href="about.html">About</a>
+        <a class="nav-link" href="register.html">Register</a>
+        <a class="nav-link" href="users.html">Users List</a>
+    </nav>
+
+    <div>
+        <h2>Add a new user</h2>
+            <div>
+                <label>Email: </label>
+                <input type="text" id="txtEmail">
+            </div>
+
+            <br>
+
+            <div>
+                <label>Password: </label>
+                <input type="password" id="txtPassword">
+            </div>
+
+            <br>
+
+            <div>
+                <label>First name: </label>
+                <input type="text" id="txtFirstName">
+            </div>
+
+            <br>
+
+            <div>
+                <label>Last name:</label>
+                <input type="text" id="txtLastName">
+            </div>
+
+            <br>
+
+            <div>
+                <label>Age: </label>
+                <input type="number" id="txtAge">
+            </div>
+
+            <br>
+
+            <div>
+                <label>Gender: </label>
+                <input type="text" id="txtGender">
+            </div>
+
+            <br>
+
+            <div>
+                <label>Phone:</label>
+                <input type="tel" id="txtPhone">
+            </div>
+
+            <br>
+
+            <div>
+                <label>Payment:</label>
+                <select id="selPayment">
+                    <option value="cash">Cash</option>
+                    <option value="credit">Credit Card</option>
+                    <option value="paypal">Paypal</option>
+                </select>
+            </div>
+
+            <br>
+
+            <div>
+                <label>Color:</label>
+                <input type="color" id="selColor">
+            </div>
+
+            <br>
+
+            <button id="btnAdd">Add</button>
+
+        <script src="https://code.jquery.com/jquery-3.6.3.min.js"></script>
+        <script src="scripts/storeManager.js"></script>
+        <script src="scripts/register.js"></script>
+    </div>
+</body>
+</html>

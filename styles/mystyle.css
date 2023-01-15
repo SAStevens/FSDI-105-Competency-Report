@@ -1,0 +1,41 @@
+body {
+    background-color:aliceblue;
+}
+
+.banner{
+    border: 2px solid black;
+    text-align: center;
+    background-color:rgb(87, 120, 177);
+    color: white;
+}
+
+nav{
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    background-color: white;
+    border-left: 2px solid Black;
+    border-right: 2px solid Black;
+    border-bottom: 2px solid Black;
+    height: 35px;
+    padding: 6px 8px;
+    font-size:x-large
+}
+
+.alert-error{
+    background-color: rgb(255,194,194);
+    border: 1px solid red;
+}
+
+#users{
+    width:100%;
+}
+
+th{
+    border: 2px solid black;
+}
+
+td{
+    border: 1px solid black;
+    text-align: center;
+}
